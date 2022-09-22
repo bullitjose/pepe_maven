@@ -8,10 +8,18 @@ package org.example;
     public class DebugSample {
         public static void main(String[] args)throws IOException {
             List sampleNames = createNames();
+            System.out.println("hello Git");
             printNames(sampleNames);
             addName(sampleNames, "Jane Doe");
             System.in.read();
             printNames(sampleNames);
+
+
+
+
+
+
+
         }
 
         private static List createNames() {
