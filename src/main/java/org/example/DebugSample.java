@@ -14,12 +14,6 @@ package org.example;
             System.in.read();
             printNames(sampleNames);
 
-
-
-
-
-
-
         }
 
         private static List createNames() {
@@ -28,6 +22,16 @@ package org.example;
             listNames.add("Jane Doe");
             return listNames;
         }
+        String sayYourName() {
+            return getClass().getName();
+        }
+        int addTwoNumbers(int a, int b) {
+            return a + b;
+        }
+
+
+
+
 
         private static void printNames(List<String> names) {
             for (String name : names) {
