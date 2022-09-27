@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cea82612-548b-4e15-968a-b919f52c70f3" name="Changes" comment="DebugSample changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DebugSampleTest.java" afterDir="false" />
+    <list default="true" id="cea82612-548b-4e15-968a-b919f52c70f3" name="Changes" comment="DebugSample changes + test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PosNeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PosNegTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DebugSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DebugSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/DebugSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/DebugSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DebugSampleTest">
+  <component name="RunManager" selected="JUnit.PosNegTest">
     <configuration name="DebugSampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pepe_maven" />
       <extension name="coverage">
@@ -121,6 +120,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PosNegTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pepe_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PosNegTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pepe_maven" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,23 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.shouldShowSimpleAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pepe_maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
-      <option name="METHOD_NAME" value="shouldShowSimpleAssertion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PosNegTest" />
         <item itemvalue="JUnit.DebugSampleTest.sayYourName" />
         <item itemvalue="JUnit.DebugSampleTest" />
         <item itemvalue="JUnit.DebugSampleTest.addTwoNumbers" />
         <item itemvalue="JUnit.SampleTest" />
-        <item itemvalue="JUnit.SampleTest.shouldShowSimpleAssertion" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663840191185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DebugSample changes + test">
+      <created>1664266531906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664266531906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DebugSample changes + test">
+      <created>1664266565005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664266565005</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,17 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added MainProgram" />
     <MESSAGE value="DebugSample changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="DebugSample changes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/DebugSample.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="DebugSample changes + test" />
+    <option name="LAST_COMMIT_MESSAGE" value="DebugSample changes + test" />
   </component>
 </project>
