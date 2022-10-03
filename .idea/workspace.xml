@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cea82612-548b-4e15-968a-b919f52c70f3" name="Changes" comment="DebugSample changes + test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PosNeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PosNegTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PosNeg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PosNeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PosNegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PosNegTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664266565005</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DebugSample changes + test">
+      <created>1664268352306</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664268352306</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

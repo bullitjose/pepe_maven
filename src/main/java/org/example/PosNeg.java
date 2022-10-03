@@ -3,6 +3,7 @@ package org.example;
 public class PosNeg {
     boolean posNeg(int a, int b, boolean negative) {
         boolean retval=false;
+        /**TODO*/
 
         if (negative) {
             if ((a * b) < 0) {
@@ -14,6 +15,8 @@ public class PosNeg {
                 if (a < 0) {
             // both numbers are negative
                     retval = true;
+
+
                 }
                 else {
                     retval = false;
@@ -22,6 +25,8 @@ public class PosNeg {
         }
         else {
             retval = ((a * b) < 0);
+
+
         }
         return false;
         }
